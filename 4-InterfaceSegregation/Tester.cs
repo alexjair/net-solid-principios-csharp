@@ -1,3 +1,5 @@
+using InterfaceSegregation.Interfaces;
+
 namespace InterfaceSegregation
 {
     public class 

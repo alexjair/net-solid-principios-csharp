@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InterfaceSegregation.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,6 +30,16 @@ namespace InterfaceSegregation
         }
 
         public void Test()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Debugger()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Injections()
         {
             throw new NotImplementedException();
         }
