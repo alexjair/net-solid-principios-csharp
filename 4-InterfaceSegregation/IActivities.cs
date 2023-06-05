@@ -1,9 +1,11 @@
-using InterfaceSegregation.Interfaces;
-
 namespace InterfaceSegregation
 {
-    public interface IActivities : IWorkTeamActivities, IDevelopActivities, IDesignActivities, ITestActivities, ISegurityActivities
+    public interface IActivities
     {
-
+        void Plan();
+        void Comunicate();
+        void Design();
+        void Develop();
+        void Test();
     }
 }
